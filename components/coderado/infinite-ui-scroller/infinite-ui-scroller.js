@@ -11,7 +11,7 @@
       restrict: "E",
       replace: true,
       controllerAs: "ctrl",
-      templateUrl: "components/coderado/infinite-ui-scroller/infinite-ui-scroller.template.html",
+      templateUrl: "/components/coderado/infinite-ui-scroller/infinite-ui-scroller.template.html",
       bindToController: {
         states: "="
       },
