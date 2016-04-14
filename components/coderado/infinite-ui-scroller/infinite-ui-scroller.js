@@ -28,10 +28,10 @@
          // console.log("afterElement: " + afterElement.getBoundingClientRect().top);
          // console.log("offsetParent: " + afterElement.offsetParent.getBoundingClientRect().top);
 
-          if(afterElement && afterElement.getBoundingClientRect().top < 20){
+          if(afterElement && afterElement.getBoundingClientRect().top < 8){
             //$timeout(function(){
             console.log("scroll next >>");
-            afterElement.offsetParent.scrollTop = 0;
+            afterElement.offsetParent.scrollTop = 9;
             ctrl.next();
 
            // }, 100);
