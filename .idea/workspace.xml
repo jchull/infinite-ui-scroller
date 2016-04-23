@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd62735-f009-41cd-b647-679eae4070c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="infinite-scroller.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="infinite-ui-scroller.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="infinite-ui-scroller.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/coderado/infinite-ui-scroller/infinite-ui-scroller.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
               <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -119,16 +134,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robots.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/robots/robots.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -157,6 +162,7 @@
         <option value="$PROJECT_DIR$/app/views/main/main.html" />
         <option value="$PROJECT_DIR$/components/coderado/infinite-ui-scroller/infinite-ui-scroller.js" />
         <option value="$PROJECT_DIR$/components/coderado/infinite-ui-scroller/infinite-ui-scroller.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -877,7 +883,7 @@
       <workItem from="1460948616362" duration="168000" />
       <workItem from="1461118030204" duration="94000" />
       <workItem from="1461171013479" duration="2290000" />
-      <workItem from="1461360629941" duration="4014000" />
+      <workItem from="1461360629941" duration="4275000" />
     </task>
     <task id="LOCAL-00001" summary="cleaned up">
       <created>1460433818281</created>
@@ -956,11 +962,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461389023279</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="committing project files to not lose current changes, then removing and adding to ignore">
+      <created>1461389101956</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1461389101956</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12027000" />
+    <option name="totallyTimeSpent" value="12288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1391" y="23" width="2446" height="2133" extended-state="0" />
@@ -1015,7 +1028,8 @@
     <MESSAGE value="Changed script to start server" />
     <MESSAGE value="Cleaned up component style, changed circular to two-way binding" />
     <MESSAGE value="Cleaned up sample app style, added checkbox to control circular state to demo feature, added toolbar styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up sample app style, added checkbox to control circular state to demo feature, added toolbar styling" />
+    <MESSAGE value="committing project files to not lose current changes, then removing and adding to ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="committing project files to not lose current changes, then removing and adding to ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1026,14 +1040,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/future/future.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/view4/view4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1427,6 +1433,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
       </provider>
