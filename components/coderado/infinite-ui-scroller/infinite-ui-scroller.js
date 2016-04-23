@@ -13,10 +13,10 @@
       controllerAs: "ctrl",
       templateUrl: "/components/coderado/infinite-ui-scroller/infinite-ui-scroller.template.html",
       bindToController: {
-        states: "="
+        states: "=",
+        circular: "="
       },
       link: function($scope, elem, attrs, ctrl, $timeout){
-        ctrl.circular = (attrs.circular != "false");
 
 //         attrs.$observe("states", function(){
 //         });
