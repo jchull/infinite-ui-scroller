@@ -1,2 +1,14 @@
-<h2 style="color: #A9A9A9;margin:4px;">Infinite Scrolling UI Router</h2>
-<infinite-scroller states="ctrl.states" circular="false"></infinite-scroller>
+<div class="toolbar">
+  <div>
+    <h2>Infinite Scrolling UI Router</h2>
+  </div>
+  <div>
+    <label for="circularCheckbox">Circular</label>
+    <input id="circularCheckbox"
+           type="checkbox"
+           ng-model="ctrl.circular"/>
+  </div>
+</div>
+<infinite-scroller states="ctrl.states"
+                   circular="ctrl.circular">
+</infinite-scroller>

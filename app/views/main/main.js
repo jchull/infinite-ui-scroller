@@ -8,5 +8,6 @@ angular.module('myApp.main', ['coderado.infiniteUiScroller'])
   ctrl.states = [
     "views.robots", "views.cats", "views.future", "views.view4", "views.view5"
   ];
+  ctrl.circular = true;
 
 }]);
