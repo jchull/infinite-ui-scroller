@@ -2,4 +2,6 @@
   "use strict";
 
   angular.module("coderado", [])
+
+;
 })();
