@@ -1,15 +1,17 @@
 {
   "name": "infinite-scroller",
-  "private": true,
   "version": "0.0.0",
+  "author": "Jeremy Hull",
+  "description": "A simple library to use Angular UI Router states in an infinite scrolling component",
   "license": "MIT",
+  "main": "index.js",
   "devDependencies": {
     "http-server": "^0.9.0"
   },
   "scripts": {
     "postinstall": "",
     "prestart": "npm install",
-    "serve": "http-server -a localhost -p 8000 -c-1"
+    "start": "http-server -a localhost -p 8000 -c-1"
   },
   "dependencies": {
     "angular": "^1.5.5",
